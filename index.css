@@ -1,0 +1,72 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,boby{
+         width: 100%;
+         height: 100%;
+
+}
+.main-cont{
+             width: 100%;
+             /* height: 100%; */
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             padding: 20px;
+
+}
+.heading{
+            color: rgb(15, 200, 232);
+            letter-spacing: 15px;
+            font-size: 45px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+
+}
+.todo-main-cont{
+                 /* border: 1px solid black; */
+                  width: 75%;  
+
+}
+.list-cont{
+ padding: 15px;
+ /* border: 1px solid black; */
+ list-style: none;
+ margin-bottom: 15px;
+ display: flex;
+ align-items: center;
+ height: 70px;
+
+
+}
+.label-card{
+
+     padding: 10px; 
+    width: 80%;
+    background-color:rgb(137, 156, 209);
+    margin-left: 20px;
+    border-radius: 8px;
+    border-left: 5px solid rgb(5, 22, 69); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.delete-btn{
+               border: none;
+               background-color: transparent;
+
+
+}
+.delete-btn:focus{
+
+    border: none;
+    outline: none;
+}
+.checked{
+
+ text-decoration: line-through;
+
+}
